@@ -1,0 +1,56 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AUTH_COOKIE_NAME	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^AUTH_COOKIE_NAME = settings.AUTH_COOKIE_NAME$/;"	v
+AUTH_COOKIE_NAME	pygmyui/pygmy/views.py	/^AUTH_COOKIE_NAME = settings.AUTH_COOKIE_NAME$/;"	v
+INVALID_CUSTOM_CODE_ERROR	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^INVALID_CUSTOM_CODE_ERROR = ("Invalid value. Length should be <= 8 and should"$/;"	v
+INVALID_CUSTOM_CODE_ERROR	pygmyui/pygmy/views.py	/^INVALID_CUSTOM_CODE_ERROR = ("Invalid value. Length should be <= 8 and should"$/;"	v
+MAX_SHORT_CODE_LEN	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^MAX_SHORT_CODE_LEN = 8$/;"	v
+MAX_SHORT_CODE_LEN	pygmyui/pygmy/views.py	/^MAX_SHORT_CODE_LEN = 8$/;"	v
+URLForm	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^class URLForm(forms.Form):$/;"	c	inherits:forms.Form
+URLForm	pygmyui/pygmy/views.py	/^class URLForm(forms.Form):$/;"	c
+VALID_INPUT_CHARS	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^VALID_INPUT_CHARS = string.ascii_letters + string.digits$/;"	v
+VALID_INPUT_CHARS	pygmyui/pygmy/views.py	/^VALID_INPUT_CHARS = string.ascii_letters + string.digits$/;"	v
+check_available	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^def check_available(request):$/;"	f	access:public
+check_available	pygmyui/pygmy/views.py	/^def check_available(request):$/;"	f
+clean	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^    def clean(self):$/;"	m	class:URLForm	access:public
+clean	pygmyui/pygmy/views.py	/^    def clean(self):$/;"	m	class:URLForm
+custom_url	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^    custom_url = forms.CharField(required=False, label='Custom URL')$/;"	v	class:URLForm
+custom_url	pygmyui/pygmy/views.py	/^    custom_url = forms.CharField(required=False, label='Custom URL')$/;"	v	class:URLForm
+dashboard	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^def dashboard(request):$/;"	f	access:public
+dashboard	pygmyui/pygmy/views.py	/^def dashboard(request):$/;"	f
+get_short_link	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^def get_short_link(request, code):$/;"	f	access:public
+get_short_link	pygmyui/pygmy/views.py	/^def get_short_link(request, code):$/;"	f
+homepage	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^def homepage(request):$/;"	f	access:public
+homepage	pygmyui/pygmy/views.py	/^def homepage(request):$/;"	f
+index	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^def index(request):$/;"	f	access:public
+index	pygmyui/pygmy/views.py	/^def index(request):$/;"	f
+label	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^                                       label='Link Expire Time')$/;"	v	class:URLForm
+label	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^                              label='Long URL')$/;"	v	class:URLForm
+label	pygmyui/pygmy/views.py	/^                                       label='Link Expire Time')$/;"	v	class:URLForm
+label	pygmyui/pygmy/views.py	/^                              label='Long URL')$/;"	v	class:URLForm
+link_auth	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^def link_auth(request):$/;"	f	access:public
+link_auth	pygmyui/pygmy/views.py	/^def link_auth(request):$/;"	f
+link_shortener	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^def link_shortener(request):$/;"	f	access:public
+link_shortener	pygmyui/pygmy/views.py	/^def link_shortener(request):$/;"	f
+link_unshorten	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^def link_unshorten(request, code):$/;"	f	access:public
+link_unshorten	pygmyui/pygmy/views.py	/^def link_unshorten(request, code):$/;"	f
+long_url	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^    long_url = forms.URLField(help_text='Long Link To Shorten',$/;"	v	class:URLForm
+long_url	pygmyui/pygmy/views.py	/^    long_url = forms.URLField(help_text='Long Link To Shorten',$/;"	v	class:URLForm
+name	/home/zheng/src/apps/pygmy/pygmyui/pygmy/urls.py	/^        name='get_short_link'),$/;"	v
+name	pygmyui/pygmy/urls.py	/^        name='get_short_link'),$/;"	v
+remember_check	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^    remember_check = forms.BooleanField(required=False)$/;"	v	class:URLForm
+remember_check	pygmyui/pygmy/views.py	/^    remember_check = forms.BooleanField(required=False)$/;"	v	class:URLForm
+remember_time	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^    remember_time = forms.IntegerField(required=False,$/;"	v	class:URLForm
+remember_time	pygmyui/pygmy/views.py	/^    remember_time = forms.IntegerField(required=False,$/;"	v	class:URLForm
+secret_check	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^    secret_check = forms.BooleanField(required=False)$/;"	v	class:URLForm
+secret_check	pygmyui/pygmy/views.py	/^    secret_check = forms.BooleanField(required=False)$/;"	v	class:URLForm
+secret_key	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^    secret_key = forms.CharField(required=False, label='Secret Key')$/;"	v	class:URLForm
+secret_key	pygmyui/pygmy/views.py	/^    secret_key = forms.CharField(required=False, label='Secret Key')$/;"	v	class:URLForm
+short_link_stats	/home/zheng/src/apps/pygmy/pygmyui/pygmy/views.py	/^def short_link_stats(request, code):$/;"	f	access:public
+short_link_stats	pygmyui/pygmy/views.py	/^def short_link_stats(request, code):$/;"	f
+urlpatterns	/home/zheng/src/apps/pygmy/pygmyui/pygmy/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	pygmyui/pygmy/urls.py	/^urlpatterns = [$/;"	v

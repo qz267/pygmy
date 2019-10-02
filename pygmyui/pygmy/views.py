@@ -198,6 +198,11 @@ def index(request):
             AUTH_COOKIE_NAME, access_token.get(AUTH_COOKIE_NAME))
     return response
 
+def homepage(request):
+    """Homepage, to hide the real homepage from being access."""
+    response = render(request, 'pygmy/homepage.html')
+    return response
+
 
 def check_available(request):
     custom_code = request.GET.get('custom_code')
