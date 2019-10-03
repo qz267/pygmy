@@ -200,7 +200,7 @@ def index(request):
 
 def homepage(request):
     """Homepage, to hide the real homepage from being access."""
-    response = render(request, 'pygmy/homepage.html')
+    response = render(request, 'pygmy/homepage.html', status=403)
     return response
 
 
